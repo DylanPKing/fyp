@@ -1,0 +1,6 @@
+[submodule "autodj"]
+	path = autodj
+	url = https://github.com/DylanPKing/fyp-frontend.git
+[submodule "backend"]
+	path = backend
+	url = https://github.com/DylanPKing/fyp-backend.git
