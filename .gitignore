@@ -1,2 +1,6 @@
 # DB dir
 db/
+
+# VSCode
+.devcontainer/
+.vscode/
