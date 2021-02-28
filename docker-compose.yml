@@ -23,6 +23,11 @@ services:
       - 8000:8000
     volumes:
       - ./backend:/code/
+    environment:
+      - NEO4J_USERNAME=neo4j
+      - NEO4J_PASSWORD=password
+      - NEO4J_BOLT_URL=bolt://neo4j:password@db:7687
+      - NEOMODEL_MAX_CONNECTION_POOL_SIZE=50
     depends_on:
       - db
 
