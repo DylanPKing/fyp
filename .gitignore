@@ -1,6 +1,6 @@
 # DB dir
 db/
 
-# VSCode
-.devcontainer/
+# VSCode configs
 .vscode/
+.devcontainer/
